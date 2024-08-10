@@ -47,11 +47,17 @@ public class FlashFireTourch : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Разрешение на включение огней
+    /// </summary>
     public void PermissionFlash()
     {
         isPermissionFlash = true;
     }
 
+    /// <summary>
+    /// Зажигаем огни
+    /// </summary>
     private void FlashFireOn()
     {
         if (i < lengthArray)
